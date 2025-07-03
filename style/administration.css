@@ -1,0 +1,154 @@
+
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* Sidebar Styling */
+.about-sidebar {
+    width: 310px;
+    background: linear-gradient(to bottom, #fceaea, #fff0f0);
+    padding: 25px 20px;
+    border-right: 2px solid #d8b4c3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    position: sticky;
+    top: 200px;
+    overflow-y: auto;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+    border-radius: 0 8px 8px 0;
+    z-index: 100; 
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Main Menu UL */
+.about-menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.about-menu li,
+.about-menu summary {
+  padding: 5px 10px;
+  font-weight: 500;
+  color: #3d005f;
+  cursor: pointer;
+}
+
+.about-menu li a,
+.about-menu summary {
+  text-decoration: none;
+  display: block;
+}
+
+.about-menu li a:hover,
+.about-menu summary:hover {
+  background-color: #f4c8c8;
+  color: #000;
+}
+
+.about-menu details ul {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.about-menu details li a {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.about-menu details li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.about-menu details summary {
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+.about-menu details summary::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  font-size: 0.8rem;
+  transition: transform 0.3s;
+}
+
+.about-menu details[open] summary::before {
+  content: '▼';
+}
+
+.pointers {
+  padding-left: 20px;  
+  list-style-type: disc; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 1rem;
+}
+
+.pointers li {
+  margin-bottom: 20px;  
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+  font-weight: lighter;
+}
+
+.committees p{
+    font-weight: lighter;
+}
+
+
+.top-full-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional */
+}
+
+.navbar {
+  background-color: #a00000;
+  padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+<h3>Workload/Timetable Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p></p>
+            </li>
+          </ul> <br> */
+
+
+
+

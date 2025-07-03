@@ -1,0 +1,262 @@
+Reset and Base
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* Main Menu UL */
+.about-menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.about-menu li,
+.about-menu summary {
+  padding: 5px 10px;
+  font-weight: 500;
+  color: #3d005f;
+  cursor: pointer;
+}
+
+.about-menu li a,
+.about-menu summary {
+  text-decoration: none;
+  display: block;
+}
+
+.about-menu li a:hover,
+.about-menu summary:hover {
+  background-color: #f4c8c8;
+  color: #000;
+}
+
+.about-menu details ul {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.about-menu details li a {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.about-menu details li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+.about-content {
+  flex: 1;
+  padding: 40px;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+.about-title {
+  font-size: 2rem;
+  color: #600080;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  margin-bottom: 18px;
+  font-size: 1.02rem;
+  text-align: justify;
+}
+
+.about-signature {
+  color: #a10000;
+  margin-top: 40px;
+}
+
+.pointers {
+  padding-left: 20px;  
+  list-style-type: disc; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pointers li {
+  margin-bottom: 20px;  
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+}
+
+
+.ranking-section {
+  padding: 20px;
+}
+
+.ranking-section h2 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.ranking-table th {
+ background-color: #500000;
+
+;
+  color: white;
+  text-align: center;
+}
+
+.ranking-table td {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.ranking-table tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+
+.about-content {
+  padding: 20px;
+  max-width: 100%;
+}
+
+.pointers {
+  margin-left: 1rem;
+  list-style-type: disc;
+}
+
+.accomplishment-category {
+  margin-bottom: 2rem;
+}
+
+.accomplishment-category h3 {
+  color: #800000;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.annual-reports-container {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.annual-report {
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.annual-report h3 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.annual-report p{
+  padding-left: 25px;
+}
+
+.annual-brochure i {
+    font-size: 32px; /* or any px/rem size */
+    color: #020202a3;   /* optional: red color for PDF */
+}
+
+.annual-brochure p{
+  padding-left: 25px;
+}
+
+.annual-brochure i{
+  padding-left: 25px;
+}
+
+.about-menu details summary {
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+.about-menu details summary::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  font-size: 0.8rem;
+  transition: transform 0.3s;
+}
+
+.about-menu details[open] summary::before {
+  content: '▼';
+}
+
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+/* bar Styling */
+.about-sidebar {
+    width: 310px;
+    background: linear-gradient(to bottom, #fceaea, #fff0f0);
+    padding: 25px 20px;
+    border-right: 2px solid #d8b4c3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    position: sticky;
+    top: 200px;
+    overflow-y: auto;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+    border-radius: 0 8px 8px 0;
+    z-index: 100; 
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+
+.ranking-table th,
+.ranking-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.ranking-table thead th {
+  background-color: #4a0000; /* Dark maroon */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.ranking-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.ranking-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
