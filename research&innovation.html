@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DOR | DU</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="stylesheet" href="style/about-us.css">
+  <link rel="stylesheet" href="style/administration.css">
+  <link rel="stylesheet" href="style/research&innovation.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="left-header">
+      <a href="https://www.du.ac.in/" target="_blank" class="header-link">
+        DU Website
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="16" width="16"
+          fill="currentColor">
+          <path d="M448 80v352c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V80c0-26.51 
+            21.49-48 48-48h352c26.51 0 48 21.49 48 48zm-88 16H248.029c-21.313 0-32.08 
+            25.861-16.971 40.971l31.984 31.987L67.515 364.485c-4.686 4.686-4.686 12.284 
+            0 16.971l31.029 31.029c4.687 4.686 12.285 4.686 16.971 
+            0l195.526-195.526 31.988 31.991C358.058 263.977 384 253.425 
+            384 231.979V120c0-13.255-10.745-24-24-24z" />
+        </svg>
+      </a>
+
+      <a href="mailto:head@or.du.ac.in" class="header-link">✉️ head@or.du.ac.in</a>
+      <a href="#" class="header-link">Department Brochure</a>
+      <a href="#" class="header-link">Virtual Tour</a>
+    </div>
+
+
+    <div class="right-header">
+      <!-- Font Size Control -->
+      <button onclick="adjustFontSize(1)">A+</button>
+      <button onclick="adjustFontSize(-1)">A-</button>
+
+      <!-- Theme Toggle -->
+      <button onclick="toggleTheme()">🌓 Theme</button>
+
+      <!-- Login Dropdown -->
+
+      <div class="dropdown login-dropdown">
+        <button class="dropbtn">Login</button>
+        <div class="dropdown-content">
+          <a href="#">Students (or)<br>Ex-Students</a>
+          <a href="#">Alumni</a>
+          <a href="#">Faculty and Staff</a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </header>
+
+  <div class="top-full-header">
+
+    <div class="main-header">
+      <div class="left-logo">
+        <img src="img/DULOGO.png" alt="DU Logo" class="logo" width="130" height="130">
+      </div>
+
+      <div class="center-logo">
+        <img src="img/ORLOGO.png" alt="Department Logo" class="logo" width="130" height="130">
+      </div>
+
+      <div class="right-search">
+        <form class="search-form" action="#" method="get">
+          <input type="text" placeholder="Search..." name="q">
+          <button type="submit">🔍</button>
+        </form>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="nav-item dropdown">
+          <a href="index.html">Home</a>
+        </li>
+
+        <!-- About Us Menu -->
+        <li class="nav-item dropdown">
+          <a href="about-us.html">About us</a>
+          <ul class="dropdown-menu">
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#vision-mission">Vision and Mission</a></li>
+
+            <!-- Campus Submenu -->
+            <li class="dropdown-submenu">
+              <a href="#campus">Campus</a>
+              <ul class="dropdown-menu">
+                <li><a href="#campus">Research Labs</a></li>
+                <li><a href="#campus">Seminar & Lecture Rooms</a></li>
+                <li><a href="#campus">Research Scholar Room</a></li>
+                <li><a href="#campus">Computer Lab</a></li>
+                <li><a href="#campus">Committee Room</a></li>
+                <li><a href="#campus">Library</a></li>
+                <li><a href="#campus">Disabled-Friendly Campus</a></li>
+                <li><a href="#campus">Clean and Green Campus</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#ranking">Ranking</a></li>
+
+            <!-- Accomplishments Submenu -->
+            <li class="dropdown-submenu">
+              <a href="#accomplishments">Accomplishments<br>(Awards, Honours, PMRF)</a>
+              <ul class="dropdown-menu">
+                <li><a href="#Department">Department</a></li>
+                <li><a href="#Department">Department</a></li>
+                <li><a href="#Department">Department</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#annual-reports">Annual Reports</a></li>
+            <li><a href="#brochure">Brochure</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+          </ul>
+        </li>
+
+        <!-- Administration Menu -->
+        <li class="nav-item dropdown">
+          <a href="administration.html">Administration</a>
+          <ul class="dropdown-menu">
+
+            <!-- Committees Submenu -->
+            <li class="dropdown-submenu">
+              <a href="#">Committees</a>
+              <ul class="dropdown-menu">
+                <li><a href="#Committees">Internal Quality and Assurance Committee</a></li>
+                <li><a href="#Committees">Anti-Ragging/No Substance Abuse and Anti-Smoking Committee</a></li>
+                <li><a href="#Committees">Anti-Sexual Harassment & Gender Sensitization Committee</a></li>
+                <li><a href="#Committees">Compilation of Internal Assessment/Optional Allotment Committee</a></li>
+                <li><a href="#Committees">SC/ST/OBC/PwD Students/Teaching/Non-teaching Staff Grievance Committee</a>
+                </li>
+                <li><a href="#Committees">North-East Student Grievance Committee</a></li>
+                <li><a href="#Committees">U-75 Net-Zero Movement on Carbon Neutral Campus</a></li>
+                <li><a href="#Committees">Placement Cell Committee</a></li>
+                <li><a href="#Committees">Udhmodya Scheme</a></li>
+                <li><a href="#Committees">Cultural Committees</a></li>
+                <li><a href="#Committees">Departmental Library Committee</a></li>
+                <li><a href="#Committees">Department Sports Committee</a></li>
+                <li><a href="#Committees">Department Website Committee</a></li>
+                <li><a href="#Committees">Students Grievance Committee</a></li>
+                <li><a href="#Committees">Workload/Timetable Committee</a></li>
+              </ul>
+            </li>
+
+            <!-- Redressal Mechanisms Submenu -->
+            <li class="dropdown-submenu">
+              <a href="#">Redressal Mechanisms</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">SC/ST/OBC Grievance Committee</a></li>
+                <li><a href="#">North-East Student Welfare Committee</a></li>
+                <li><a href="#">Anti-Ragging/No Substance Abuse Committee</a></li>
+                <li><a href="#">Student Grievance Committee</a></li>
+
+                <!-- University Level Submenu -->
+                <li class="dropdown-submenu">
+                  <a href="#">At University Level</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Student Grievance Portal</a></li>
+                    <li><a href="#">Equal Opportunity Cell (EOC)</a></li>
+                    <li><a href="#">Internal Complaints Committee (ICC)</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+        </li>
+
+        <!-- Research and Innovation -->
+        <li class="nav-item dropdown">
+          <a href="research&innovation.html">Research & Innovation</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Research Focus Areas</a></li>
+            <li><a href="#">Publications</a></li>
+            <li><a href="#">Books Authored</a></li>
+            <li><a href="#">Research Grants</a></li>
+            <li><a href="#">Research Scholars Thesis</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Patents</a></li>
+            <li><a href="#">Collaborations</a></li>
+            <li><a href="#">Ph.D. Awarded</a></li>
+          </ul>
+        </li>
+
+        <!-- Academics -->
+        <li class="nav-item dropdown">
+          <a href="academics.html">Academics</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">M.Sc. Operational Research (Syllabus)</a></li>
+            <li><a href="#">Ph.D. Operational Research (Syllabus)</a></li>
+            <li><a href="#">E-resources (Library, etc.)</a></li>
+            <li><a href="#">Useful Links</a></li>
+            <li><a href="#">PYQs with Solutions</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="#">Time Tables</a></li>
+            <li><a href="#">Examination & Results</a></li>
+          </ul>
+        </li>
+
+        <!-- Opportunities -->
+        <li class="nav-item dropdown">
+          <a href="opportunities.html">Opportunities</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Student Life</a></li>
+            <li><a href="#">Placement</a></li>
+            <li><a href="#">Scholarships / Internships</a></li>
+            <li><a href="#">Conferences</a></li>
+          </ul>
+        </li>
+
+        <!-- Admission -->
+        <li class="nav-item dropdown">
+          <a href="admission.html">Admission</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">M.Sc. Operational Research</a></li>
+            <li><a href="#">Ph.D. Operational Research</a></li>
+          </ul>
+        </li>
+
+        <!-- People -->
+        <li class="nav-item dropdown">
+          <a href="people.html">People</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Faculty</a></li>
+            <li><a href="#">Honorary Professor</a></li>
+            <li><a href="#">Former Faculty</a></li>
+            <li><a href="#">Postdoc Fellows</a></li>
+            <li><a href="#">Research Scholars</a></li>
+            <li><a href="#">Ph.D. Students</a></li>
+            <li><a href="#">M.Sc. Students</a></li>
+            <li><a href="#">Former HODs</a></li>
+            <li><a href="#">Staff</a></li>
+          </ul>
+        </li>
+
+        <!-- Alumni -->
+        <li class="nav-item dropdown">
+          <a href="alumni.html">Alumni</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Alumni Relation Cell</a></li>
+            <li><a href="#">Distinguished Alumni</a></li>
+          </ul>
+        </li>
+
+        <!-- Gallery -->
+        <li class="nav-item">
+          <a href="gallery.html">Gallery</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Event Wise Photos</a></li>
+          </ul>
+        </li>
+    </nav>
+
+  </div>
+
+  <!-- ------------------------------------- -->
+
+  <div class="about-container">
+    <!-- Sidebar -->
+    <div class="about-sidebar">
+      <ul class="about-menu">
+        <li><a href="#Research-focus-areas">Research Focus Areas</a></li>
+        <li><a href="#publications">Publications (Research Articles, Journals, etc.)</a></li>
+        <li><a href="#books-authored">Books Authored</a></li>
+        <li><a href="#research-grants">Research Grants</a></li>
+        <li><a href="#research-scholars-thesis">Research Scholars Thesis</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#patents">Patents</a></li>
+        <li><a href="#collaborations">Collaborations</a></li>
+        <li><a href="#phd-awarded">Ph.D. Awarded</a></li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="about-content">
+
+      <!-- Welcome Section -->
+      <h2 class="about-title" id="Research-focus-areas">Research Focus Area</h2>
+
+      <section class="welcome">
+
+        <p>
+          The <strong>Department of Operational Research</strong> at the <strong>University of Delhi</strong> stands at
+          the forefront of research and innovation in mathematical modeling, analytics, and decision sciences. It is
+          committed to advancing the frontiers of knowledge through rigorous academic inquiry, collaborative research
+          projects, and real-world applications.
+        </p>
+
+        <p>
+          The department fosters a culture of <strong>intellectual curiosity</strong> and <strong>interdisciplinary
+            engagement</strong>, empowering both faculty and students to contribute to cutting-edge research that
+          impacts industry, government, and academia.
+        </p>
+
+        <p><strong>Key Contributions:</strong></p>
+        <ul class="pointers">
+          <li><strong>Research Publications:</strong> Faculty members consistently publish in reputed international and
+            national journals, contributing to global knowledge in Operational Research and Analytics.</li>
+          <li><strong>Industry-Academic Collaboration:</strong> The department partners with organizations to solve
+            real-world problems using advanced optimization, simulation, and statistical methods.</li>
+          <li><strong>Funded Projects:</strong> Engagement in sponsored research from agencies like UGC, DST, and AICTE
+            highlights its academic credibility.</li>
+          <li><strong>Student Involvement:</strong> Students are actively involved in research projects, promoting early
+            exposure to innovation and data-driven problem-solving.</li>
+        </ul>
+
+        <p>
+          Through its unwavering focus on <strong>quality research, innovation, and societal impact</strong>, the
+          Department of Operational Research continues to strengthen its legacy as a leading center for analytical
+          excellence in India.
+        </p>
+      </section>
+      <br>
+
+      <h2 class="about-title" id="publications">Publications</h2>
+
+      <section class="publications">
+        <div class="pdf-container">
+
+          <details open>
+            <summary>
+              <span><strong>📄 RESEARCH PUBLICATIONS 2022–23</strong></span> <br>
+            </summary>
+            <ul class="pub-list">
+              <li><strong>Aditi, Kannan, D., Darbari, J. D., & Jha, P. C.</strong> (2022). Sustainable supplier
+                selection model... <em>Annals of Operations Research</em>, 1–42.</li>
+              <li><strong>Anand, A., Irshad, M. S., & Dwivedi, Y. K.</strong> (2022). Modeling view count dynamics...
+                <em>Kybernetes</em>, Vol. 51 No. 10.
+              </li>
+              <li><strong>Anand, A., Irshad, M. S., Aggrawal, D., & Ram, M.</strong> (2022). Application of
+                intuitionistic fuzzy set TOPSIS... <em>Nonlinear Studies</em>, 29(4).</li>
+              <li><strong>Anand, A., Agarwal, M., Aggrawal, D., et al.</strong> (2022). Successive generation
+                introduction time... <em>Environment, Development and Sustainability</em>.</li>
+              <li><strong>Anand, A., Das, S., Agarwal, M., & Inoue, S.</strong> (2022). An optimal scheduling
+                policy... <em>International Journal of Quality & Reliability Management</em>.</li>
+              <li><strong>Anand, A., Agarwal, M., Aggrawal, N., & Bhatt, N.</strong> (2022). Modelling the impact of
+                lockdowns... <em>International Journal of Computing Science and Mathematics</em>.</li>
+              <li><strong>Anand, A., Das, S., Singh, O., & Kumar, V.</strong> (2022). Testing resource allocation...
+                <em>International Journal of Applied Management Science</em>.
+              </li>
+              <li><strong>Aggrawal, D., Anand, A., & Shahid, Z.</strong> (2022). Software Reliability Growth
+                Modeling... <em>Journal of Graphic Era University</em>.</li>
+              <li><strong>Aggrawal, D., Agarwal, M., Mittal, R., & Anand, A.</strong> (2022). Impact of negative
+                WOM... <em>International Journal of System Assurance Engineering and Management</em>.</li>
+              <li><a href="document/RESEARCH PUBLICATIONS 2022-23.pdf" target="_blank"><em>Explore the below PDF
+                    for complete details...</em></a></li>
+            </ul>
+          </details>
+
+          <embed src="document/RESEARCH PUBLICATIONS 2022-23.pdf" type="application/pdf" width="100%" height="700px"
+            style="margin-top: 2rem; border-radius: 8px; border: 1px solid #ccc;" />
+
+        </div>
+      </section>
+      <br>
+
+      <h2 class="about-title" id="books-authored">Books Authored</h2>
+      <section id="books-authored" class="research-books">
+
+        <!-- Book 1 -->
+        <div class="book-item">
+          <img
+            src="img/books/Multiple_Criteria_Decision-Making_Methods (Adarsh Anand, Mohini Agarwal, Deepti AggarwaL).jpg"
+            alt="Multiple Criteria Decision-Making Methods" class="book-cover">
+          <h3 class="book-title">Multiple Criteria Decision-Making Methods</h3>
+          <p class="book-author" style="text-align: center;">
+            Adarsh Anand, Mohini Agarwal, Deepti Aggarwal <br>
+            <strong>Publisher:</strong> De Gruyter Brill
+          </p>
+        </div>
+
+        <!-- Book 2 -->
+        <div class="book-item">
+          <img src="img/books/Market Assesment with OR Applications (Adarsh Anand, Mohini Agarwal, Deepti AggarwaL).jpg"
+            alt="Market Assessment with OR Applications" class="book-cover">
+          <h3 class="book-title">Market Assessment with OR Applications</h3>
+          <p class="book-author" style="text-align: center;">
+            Adarsh Anand, Mohini Agarwal, Deepti Aggarwal <br>
+            <strong>Publisher:</strong> CRC Press
+          </p>
+        </div>
+
+        <!-- Book 3 -->
+        <div class="book-item">
+          <img src="img/books/Social Networks Modelling and Analysis (Niyati Aggarwal, Adarsh Anand).jpg"
+            alt="Social Networks Modelling and Analysis" class="book-cover">
+          <h3 class="book-title">Social Networks Modelling and Analysis</h3>
+          <p class="book-author" style="text-align: center;">
+            Niyati Aggarwal, Adarsh Anand <br>
+            <strong>Publisher:</strong> CRC Press
+          </p>
+        </div>
+
+        <!-- Book 4 -->
+        <div class="book-item">
+          <img
+            src="img/books/Combinational Optimization Some Aspects (Rita Malhotra, C.S. lalitha, Pankaj Gupta, Aparna Mehra, Sonia).jpg"
+            alt="Combinational Optimization Some Aspects" class="book-cover">
+          <h3 class="book-title">Combinational Optimization: Some Aspects</h3>
+          <p class="book-author" style="text-align: center;">
+            Rita Malhotra, C.S. Lalitha, Pankaj Gupta, Aparna Mehra, Sonia <br>
+            <strong>Publisher:</strong> Narosa
+          </p>
+        </div>
+
+        <!-- Book 5 -->
+        <div class="book-item">
+          <img
+            src="img/books/Fuzzy Portfolio Optimization Advances in Hybrid Multi-criteria methodologies (Pankaj Gupta, Mukesh Kumar Mehlawat, Masahiro Inuiguchi, Suresh Chandra).jpg"
+            alt="Fuzzy Portfolio Optimization" class="book-cover">
+          <h3 class="book-title">Fuzzy Portfolio Optimization: Advances in Hybrid Multi-Criteria Methodologies</h3>
+          <p class="book-author" style="text-align: center;">
+            Pankaj Gupta, Mukesh Kumar Mehlawat, Masahiro Inuiguchi, Suresh Chandra <br>
+            <strong>Publisher:</strong> Springer
+          </p>
+
+        </div>
+
+
+      </section>
+
+      <h2 class="about-title" id="research-grants">Research Grants</h2>
+      <section id="grants" class="research-grants">
+
+        <p>No proper content available on the OR website.</p>
+        <p>
+          <strong>Uses of Research Grants:</strong>
+        </p>
+        <ul class="pointers">
+          <li>To fund research projects undertaken by faculty and scholars.</li>
+          <li>To procure research equipment, software, and databases.</li>
+          <li>To support fieldwork, data collection, and collaboration with industry or academic partners.</li>
+          <li>To organize or attend national and international conferences, workshops, and seminars.</li>
+          <li>To promote research publications and patent filings.</li>
+        </ul>
+        <p>
+          <strong>Importance in the Department of Operational Research, University of Delhi:</strong><br>
+          The Department of Operational Research actively promotes research activities by encouraging faculty members to
+          apply for research grants. These grants support cutting-edge research in areas such as optimization,
+          simulation, decision science, artificial intelligence, and logistics. The availability of research funding has
+          enabled the department to:
+        </p>
+        <ul class="pointers">
+          <li>Enhance research quality and output.</li>
+          <li>Promote interdisciplinary collaborations with national and international institutions.</li>
+          <li>Involve postgraduate and doctoral students in funded research projects for experiential learning.</li>
+          <li>Contribute significantly to problem-solving in real-world applications such as supply chain management,
+            healthcare operations, and public policy.</li>
+        </ul>
+        <p>
+          <strong>University of Delhi Initiatives:</strong><br>
+          The University of Delhi has established several research support programs, such as:
+        </p>
+        <ul class="pointers">
+          <li><strong>Research and Development Scheme (R&D):</strong> Provides financial assistance to faculty members
+            for undertaking minor and major research projects.</li>
+          <li><strong>DU Innovation Projects:</strong> Interdisciplinary research initiatives involving students and
+            faculty from different departments and colleges.</li>
+          <li><strong>Seed Funding:</strong> For initiating new and emerging research areas aligned with societal and
+            national priorities.</li>
+          <li><strong>Support for Conference Organization:</strong> Assistance in organizing academic conferences and
+            symposia on campus.</li>
+        </ul>
+        <br>
+
+        <p>
+          These initiatives reflect the University's commitment to fostering a robust research culture and supporting
+          academic excellence.
+        </p>
+
+        <table class="thesis-table">
+          <thead>
+            <tr>
+              <th>S.No.</th>
+              <th>Faculty</th>
+              <th>Reserch Focus</th>
+              <th>Research Topic</th>
+              <th>Total Grant Received <br>(in Rs.)</th>
+              <th>Research Grant provider</th>
+              <th>Contributors</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1. </td>
+              <td>Prof Chandra Kant Jaggi <br>(011) 27666672<br>ckjaggi@gmail.com</td>
+              <td>Operations Research, <br>Management Science</td>
+              <td><a href="#">Analyzing Inventory and Transportation Problems under Reverse Logistic Scenarios.</a></td>
+              <td>170000</td>
+              <td>DU, 2023</td>
+              <td>-</td>
+            </tr>
+
+            <tr>
+              <td>2.</td>
+              <td>Prof. K. K. Aggarwal<br>9811569252<br>kkaggarwal@or.du.ac.in</td>
+              <td>Inventory Management, <br>Computer Programming</td>
+              <td><a href="#">An EOQ model for joint ordering, pricing, and return policy with advance booking
+                  discount.</a></td>
+              <td>170000</td>
+              <td>DU, 2023</td>
+              <td>-</td>
+
+            </tr>
+
+            <tr>
+              <td>3.</td>
+              <td>Prof. Preeti Wanti Srivastava<br>9811468144<br>pwsrivastava@or.du.ac.in</td>
+              <td>Reliability Theory</td>
+              <td><a href="#">Predictive Maintinance Scheme For Phased Mission Systems.</a></td>
+              <td>170000</td>
+              <td>DU, 2023</td>
+              <td>-</td>
+
+            </tr>
+
+          </tbody>
+        </table>
+        <br>
+      </section>
+
+      <h2 class="about-title" id="research-scholars-thesis">Research Scholars Thesis</h2>
+      <section id="scholars-thesis" class="research-scholars-thesis">
+
+        <p>No proper content available on the OR website.</p>
+
+        <p>
+          <strong> Research Scholars at the Department of Operational Research, University of Delhi:</strong><br><br>
+          The Department of Operational Research at the University of Delhi has a strong focus on research, particularly
+          in areas like inventory management, software reliability, and supply chain optimization. Students in the
+          department pursue research towards their Ph.D. degrees, contributing to the field through their thesis work.
+          The department also actively participates in national and international conferences, publishing their research
+          findings.
+        </p>
+        <table class="thesis-table">
+          <thead>
+            <tr>
+              <th>S.No.</th>
+              <th>Supervisor</th>
+              <th>Research Scholar</th>
+              <th>Reserch Focus</th>
+              <th>Thesis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1. </td>
+              <td>Sr. Prof. Pankaj Gupta <br>9811685430<br>pgupta@or.du.ac.in</td>
+              <td>Prerna Negi</td>
+              <td>Inventory Management</td>
+              <td><a href="#">View Thesis</a></td>
+            </tr>
+
+            <tr>
+              <td>2.</td>
+              <td>Prof. K. K. Aggarwal<br>9811569252<br>kkaggarwal@or.du.ac.in</td>
+              <td>Amritya Khajuria</td>
+              <td>Computer Programming</td>
+              <td><a href="#">View Thesis</a></td>
+            </tr>
+
+            <tr>
+              <td>3.</td>
+              <td>Prof. Preeti Wanti Srivastava<br>9811468144<br>pwsrivastava@or.du.ac.in</td>
+              <td>Pradhyuman Shekhawat</td>
+              <td>Reliability Theory</td>
+              <td><a href="#">View Thesis</a></td>
+            </tr>
+
+            <tr>
+              <td>4.</td>
+              <td>Prof. Chandra K. Jaggi<br>(011) 27666672<br>ckjaggi@or.du.ac.in</td>
+              <td>Yakshi Verma</td>
+              <td>Operations Research</td>
+              <td><a href="#">View Thesis</a></td>
+            </tr>
+
+            <tr>
+              <td>5.</td>
+              <td>Prof. Prakash C. Jha<br>9213935929<br>pcjha@or.du.ac.in</td>
+              <td>Sudeb Sarkar</td>
+              <td>Management Science</td>
+              <td><a href="#">View Thesis</a></td>
+            </tr>
+
+            <tr>
+              <td>6.</td>
+              <td>Prof. Anu Aggarwal<br>(011) 27666672<br>anuaggarwal@or.du.ac.in</td>
+              <td>Shubrika Ahuja</td>
+              <td>Supply Chain Network Design</td>
+              <td><a href="#">View Thesis</a></td>
+            </tr>
+
+          </tbody>
+        </table>
+
+      </section><br>
+
+      <h2 class="about-title" id="projects_OR">Projects</h2>
+      <section id="projects" class="projects_OR">
+
+        <p>No data available on the OR website.</p>
+
+        <p style="font-size: 20px;">
+          <strong> Research Projects by the "Master of Operational Research" Students</strong><br>
+        </p>
+
+        <a href="#">For complete details, check the PDF.</a>
+
+        <table class="thesis-table">
+          <tr>
+            <thead>
+              <th>S.No.</th>
+              <th>Project Topic</th>
+              <th>Student(s) Name</th>
+              <th>Supervisor</th>
+              <th>Completed in</th>
+            </thead>
+          </tr>
+          <tbody>
+            <tr>
+              <td>1. </td>
+              <td><a href="">Multi-Objective Optimization Techniques in Supply Chain Network Design</a></td>
+              <td>Akanksha Verma <br> Dewanshi Srivastav</td>
+              <td>Prof Chandra Kant Jaggi <br>(011) 27666672<br>ckjaggi@gmail.com</td>
+              <td>2024-2025</td>
+            </tr>
+
+            <tr>
+              <td>2.</td>
+              <td><a href="">Inventory Management under Uncertainty Using Fuzzy Logic</a></td>
+              <td>Diksha Manchanda <br> Fathima Siyad</td>
+              <td>Prof. K. K. Aggarwal<br>9811569252<br>kkaggarwal@or.du.ac.in</td>
+              <td>2024-2025</td>
+
+            </tr>
+
+            <tr>
+              <td>3.</td>
+              <td><a href="">Application of Game Theory in Competitive Business Environments</td>
+              <td>Sahil Yadav <br> Shashank Mehrotra</td>
+              <td>Prof. Preeti Wanti Srivastava<br>9811468144<br>pwsrivastava@or.du.ac.in</td>
+              <td>2023-2024</td>
+            </tr>
+
+          </tbody>
+        </table>
+        <br>
+
+        <p style="font-size: 20px;">
+          <strong> Research Projects by the "Ph.D. of Operational Research" Students</strong><br>
+        </p>
+
+        <a href="#">For complete details, check the PDF.</a>
+
+        <table class="thesis-table">
+          <tr>
+            <thead>
+              <th>S.No.</th>
+              <th>Project Topic</th>
+              <th>Student(s) Name</th>
+              <th>Supervisor</th>
+              <th>Completed in</th>
+            </thead>
+          </tr>
+          <tbody>
+            <tr>
+              <td>1. </td>
+              <td><a href="">Development of Robust Multi-Objective Optimization Models under Uncertainty for Sustainable
+                  Systems</a></td>
+              <td>Yakshi Verma </td>
+              <td>Prof Chandra Kant Jaggi <br>(011) 27666672<br>ckjaggi@gmail.com</td>
+              <td>2024 - ongoing</td>
+            </tr>
+
+            <tr>
+              <td>2.</td>
+              <td><a href="">AI-Augmented Simulation Modeling for Real-Time Decision-Making in Urban Mobility
+                  Systems</a></td>
+              <td>Sudeb Sarkar</td>
+              <td>Prof. K. K. Aggarwal<br>9811569252<br>kkaggarwal@or.du.ac.in</td>
+              <td>2024 - ongoing</td>
+
+            </tr>
+
+            <tr>
+              <td>3.</td>
+              <td><a href="">Integer Programming with Machine Learning-Based Heuristics for Complex Job Shop Scheduling
+              </td>
+              <td>Sahil Yadav</td>
+              <td>Prof. Preeti Wanti Srivastava<br>9811468144<br>pwsrivastava@or.du.ac.in</td>
+              <td>2023 - ongoing</td>
+            </tr>
+
+            <tr>
+              <td>4. </td>
+              <td><a href="">Bilevel Optimization for Dynamic Electricity Pricing in Smart Grids</a></td>
+              <td> Fathima Siyad</td>
+              <td>Prof Chandra Kant Jaggi <br>(011) 27666672<br>ckjaggi@gmail.com</td>
+              <td>2024 - ongoing</td>
+            </tr>
+
+            <tr>
+              <td>5.</td>
+              <td><a href="">Polyhedral Studies and Decomposition Techniques for Complex Network Design Problems</a>
+              </td>
+              <td>Dewanshi Srivastav</td>
+              <td>Prof. K. K. Aggarwal<br>9811569252<br>kkaggarwal@or.du.ac.in</td>
+              <td>2024 - ongoing</td>
+
+            </tr>
+
+            <tr>
+              <td>6.</td>
+              <td><a href="">Game-Theoretic Modeling for Strategic Behavior in Crowdsourced Logistics Systems</td>
+              <td>Lakshay Sharma</td>
+              <td>Prof. Preeti Wanti Srivastava<br>9811468144<br>pwsrivastava@or.du.ac.in</td>
+              <td>2023 - ongoing</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </section>
+
+      <br>
+
+      <h2 class="about-title" id="patent">Patents</h2>
+      <section id="patents" class="patent">
+        <p>A patent is an official legal document granted by a government that gives an inventor or creator exclusive
+          rights to make, use, sell, and license their invention for a specific period of time—usually 20 years. It is a
+          form of intellectual property protection.</p>
+
+        <p><b>Why Patents Are Important in Academia and Research?</b>
+        <ul class="pointers">
+          <li>They encourage innovation by allowing researchers to protect the outcomes of their hard work.</li>
+          <li>Patents can bring funding or commercialization opportunities.</li>
+          <li>They enhance the reputation of the department and the university.</li>
+          <li>They foster collaboration with industry and startups.</li>
+          <li>They contribute to societal progress by introducing practical solutions to real-world problems.</li>
+        </ul>
+        </p>
+
+        <table class="ranking-table">
+          <thead>
+            <tr>
+              <th>S.No.</th>
+              <th>Professor Name</th>
+              <th>Contact</th>
+              <th>Patent Title</th>
+              <th>Year</th>
+              <th>Patent Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1.</td>
+              <td>Prof. K. K. Aggarwal</td>
+              <td>–</td>
+              <td>-</td>
+              <td>2021</td>
+              <td><a href="#">View Patent</a></td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Prof. Preeti Wanti Srivastava</td>
+              <td>–</td>
+              <td>-</td>
+              <td>2022</td>
+              <td><a href="#">View Patent</a></td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td>Prof. Chandra K. Jaggi</td>
+              <td>–</td>
+              <td>-</td>
+              <td>2022</td>
+              <td><a href="#">View Patent</a></td>
+            </tr>
+            <tr>
+              <td>4.</td>
+              <td>Prof. Prakash C. Jha</td>
+              <td>–</td>
+              <td>-</td>
+              <td>2023</td>
+              <td><a href="#">View Patent</a></td>
+            </tr>
+            <tr>
+              <td>5.</td>
+              <td>Prof. Anu Aggarwal</td>
+              <td>–</td>
+              <td>-</td>
+              <td>2021</td>
+              <td><a href="#">View Patent</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+        <h2 class="about-title" id="collaborations">Collaborations</h2>
+        <section id="collaboration-table" class="faculty-collaborations">
+
+          <p style="font-size: 20px;">
+            <strong>Faculty-wise Collaboration</strong><br>
+          </p>
+
+          <p><strong>Collaboration</strong> refers to the process where individuals or institutions work together
+            to achieve a common goal. In academics and research, it involves joint efforts by faculty, researchers,
+            or universities on projects, publications, or innovations.
+          </p>
+
+          <h3>Why is Collaboration Important?</h3>
+          <ul class="pointers">
+            <li><strong>Knowledge Sharing:</strong> Combines expertise and perspectives for richer insights.</li>
+            <li><strong>Resource Efficiency:</strong> Optimizes use of time, funding, and infrastructure.</li>
+            <li><strong>Innovation:</strong> Promotes interdisciplinary solutions to complex problems.</li>
+            <li><strong>Global Exposure:</strong> Helps build international networks and recognition.</li>
+            <li><strong>Enhanced Research Output:</strong> Leads to more impactful publications and discoveries.</li>
+          </ul>
+
+
+          <table class="ranking-table">
+            <thead>
+              <tr>
+                <th>Faculty Name</th>
+                <th>Collaborating Institutes</th>
+                <th>Area of Collaboration</th>
+                <th>Type of Collaboration</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Prof. K. K. Aggarwal</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Prof. Preeti Wanti Srivastava</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Prof. Chandra K. Jaggi</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Prof. Prakash C. Jha</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Prof. Anu Aggarwal</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+        </section> <br>
+
+        <h2 class="about-title" id="phd-awarded">Ph.D. Awarded</h2>
+        <section id="phd_awarded" class="phd-awarded">
+          <p style="font-size: 20px;">
+            <strong>Ph.D. Awarded in 2025</strong>
+          </p>
+          <p>
+            <a href="#brochure">For complete list, open the link.<i class="fa-solid fa-file-pdf fa-2x"></i>
+            </a>
+          </p>
+          <table class="ranking-table">
+            <thead>
+              <tr>
+                <th>S. No.</th>
+                <th>Name of Candidate</th>
+                <th>Title of Thesis</th>
+                <th>Supervisor</th>
+                <th>Date of Registration</th>
+                <th>Date of Viva-Voce</th>
+                <th>Date of Award</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+
+              <tr>
+                <td>2.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+
+              <tr>
+                <td>3.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+
+            </tbody>
+          </table><br>
+
+          <p style="font-size: 20px;">
+            <strong>Ph.D. Awarded in 2024</strong>
+          </p>
+          <p>
+            <a href="#brochure">For complete list, open the link.<i class="fa-solid fa-file-pdf fa-2x"></i>
+            </a>
+          </p>
+          <table class="ranking-table">
+            <thead>
+              <tr>
+                <th>S. No.</th>
+                <th>Name of Candidate</th>
+                <th>Title of Thesis</th>
+                <th>Supervisor</th>
+                <th>Date of Registration</th>
+                <th>Date of Viva-Voce</th>
+                <th>Date of Award</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+
+              <tr>
+                <td>2.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+
+              <tr>
+                <td>3.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+
+            </tbody>
+          </table><br>
+
+
+          <p style="font-size: 20px;">
+            <strong>Ph.D. Awarded in 2023</strong>
+          </p>
+          <p>
+            <a href="#brochure">For complete list, open the link.<i class="fa-solid fa-file-pdf fa-2x"></i>
+            </a>
+          </p>
+          <table class="ranking-table">
+            <thead>
+              <tr>
+                <th>S. No.</th>
+                <th>Name of Candidate</th>
+                <th>Title of Thesis</th>
+                <th>Supervisor</th>
+                <th>Date of Registration</th>
+                <th>Date of Viva-Voce</th>
+                <th>Date of Award</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+
+              <tr>
+                <td>2.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+
+              <tr>
+                <td>3.</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+
+            </tbody>
+          </table>
+
+    </div> <!-- Closing about-content -->
+  </div> <!-- Closing about-container -->
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-- Inventory Management, Supply Chain Management, Statistics, Optimization, Mathematical Programming, Financial Management, Software Reliability. -->
