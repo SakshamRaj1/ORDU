@@ -874,6 +874,47 @@
     setInterval(nextSlide, 5000);
   </script>
 
+ <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const OFFSET = 200; // Height to offset from top
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+          const targetId = this.getAttribute("href");
+          if (targetId.length > 1) {
+            e.preventDefault();
+            const target = document.querySelector(targetId);
+            if (target) {
+              const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+              window.scrollTo({
+                top: targetPosition - OFFSET,
+                behavior: "smooth"
+              });
+            }
+          }
+        });
+      });
+    });
+  </script>
+
+
+  <script>
+    window.addEventListener("load", function () {
+      if (window.location.hash) {
+        const target = document.querySelector(window.location.hash);
+        if (target) {
+          const OFFSET = 200;
+          setTimeout(() => {
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({
+              top: targetPosition - OFFSET,
+              behavior: "smooth"
+            });
+          }, 100); // slight delay ensures content is rendered
+        }
+      }
+    });
+  </script>
 
 </body>
 
