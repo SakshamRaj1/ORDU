@@ -297,10 +297,10 @@ body {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 3px 12px;
+  padding: 0px 12px;
   align-items: center;
   flex-wrap: wrap;
-  height: 40px;
+  height: 30px;
 }
 
 .left-header .link {
@@ -428,7 +428,18 @@ body.dark-mode {
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  height: 30px;
+  height: 20px;
+  padding: 0px 20px;
+  background-color: #000000;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: nowrap;
+  height: 15.600px;
   padding: 0px 20px;
   background-color: #000000;
 }
