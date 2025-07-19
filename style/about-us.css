@@ -39,13 +39,19 @@ body {
 .about-menu summary {
   text-decoration: none;
   display: block;
+  font-weight: 600;
+  font-size: large;
 }
+
 
 .about-menu li a:hover,
 .about-menu summary:hover {
-  background-color: maroon;
-  color: #000;
+  background: linear-gradient(to bottom right, rgba(219, 133, 253, 0.6), rgb(101, 43, 124));
+  background: linear-gradient(to bottom right, #fae1ff, #db80ff);
+  /* color: white; */
+  transform: translateY(-6px);
 }
+
 
 .about-menu details ul {
   list-style: none;
