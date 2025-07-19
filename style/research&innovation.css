@@ -160,11 +160,6 @@ body {
   /* optional */
 }
 
-.navbar {
-  background-color: #a00000;
-  padding: 10px 20px;
-}
-
 .pointers {
   padding-left: 20px;
   list-style-type: disc;
