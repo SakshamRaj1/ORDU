@@ -33,7 +33,7 @@ body {
   position: sticky;
   z-index: 100;
   background-color: #a00000;
-  padding: 5px 5px;
+  padding: 0px;
 }
 
 .pointers {
