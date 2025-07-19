@@ -104,3 +104,11 @@ body {
   background-color: #a00000;
   padding: 10px 20px;
 }
+
+.about-menu li a,
+.about-menu summary {
+  text-decoration: none;
+  display: block;
+  font-weight: 600;
+  font-size: large;
+}
