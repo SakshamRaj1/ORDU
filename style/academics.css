@@ -215,3 +215,11 @@ h5 {
     width: 100%;
   }
 }
+
+.about-menu li a,
+.about-menu summary {
+  text-decoration: none;
+  display: block;
+  font-weight: 600;
+  font-size: large;
+}
