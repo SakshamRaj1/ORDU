@@ -318,14 +318,37 @@ body {
 
 .right-header button {
   margin-left: 10px;
-  padding: 5px 10px;
+  padding: 2px 7px;
   font-size: 0.8rem;
   cursor: pointer;
   background-color: #fff;
   color: #800000;
   border: none;
-  border-radius: 3px;
+  border-radius: 2px;
 }
+
+.theme-preview {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  place-items: center;
+  margin-left: 10px;
+}
+
+.color-swatch {
+  width: 13.788px;
+  height: 16.600px;
+  transition: transform 0.2s ease;
+  padding: 2px 7px;
+  
+}
+
+.theme-preview:hover {
+  transform: translateY(-2px);
+}
+
 
 /* Dark Theme */
 body.dark-mode {
