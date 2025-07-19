@@ -670,7 +670,7 @@ body.dark-mode {
   top: 100%;
   left: 0;
   min-width: 260px;
-  background: linear-gradient(to bottom right, #fffdfd, #fbeaea);
+  background: linear-gradient(to bottom right, #ffffff, #ffcc00 );
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   padding: 5px 0;
