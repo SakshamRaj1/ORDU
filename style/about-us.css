@@ -228,7 +228,7 @@ body {
 /* Sidebar Styling */
 .about-sidebar {
   width: 350px;
-  background-color: #ffcc00;
+  background: linear-gradient(to bottom right, #fffdfd, #ffcc00);
   padding: 25px 20px;
   border-right: 20px double #ffffff;
   border-bottom: 20px solid #ffffff;
