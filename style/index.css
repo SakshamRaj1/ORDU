@@ -278,8 +278,9 @@ body {
   background-color: #d15eff00;
   color: #ffcc00;
   border-right: 5px double #ffcc00;
-  border-bottom: 2px double #ffcc00; 
+  border-bottom: 2px double #ffcc00;
   border-radius: 20px;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -346,7 +347,7 @@ body {
   height: 16.600px;
   transition: transform 0.2s ease;
   padding: 2px 7px;
-  
+
 }
 
 .theme-preview:hover {
@@ -421,7 +422,7 @@ body.dark-mode {
   padding: 8px 15px;
   cursor: pointer;
   font-size: 0.9rem;
-background-color: #ffe371;
+  background-color: #ffe371;
 }
 
 .search-form button:hover {
@@ -626,20 +627,20 @@ background-color: #ffe371;
   text-align: center;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
     align-items: center;
     padding: 0 20px;
   }
+}
 
-  .footer-box {
-    padding: 0;
-    margin-bottom: 30px;
-    width: 100%;
-    text-align: center;
-  }
+.footer-box {
+  padding: 0;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
 
 /* General Navigation Links */
 
@@ -674,7 +675,7 @@ background-color: #ffe371;
   top: 100%;
   left: 0;
   min-width: 260px;
-  background: linear-gradient(to bottom right, #ffffff, #ffcc00 );
+  background: linear-gradient(to bottom right, #ffffff, #ffcc00);
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   padding: 5px 0;
@@ -704,7 +705,7 @@ background-color: #ffe371;
   top: 100%;
   right: 50px;
   min-width: 260px;
-  background: linear-gradient(to bottom right, #fffff, #ffcc00 );
+  background: linear-gradient(to bottom right, #ffffff, #ffcc00);
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   padding: 5px 0;
@@ -727,7 +728,7 @@ background-color: #ffe371;
 
 .dropdown-content-login a:hover,
 .dropdown-menu li a:hover {
-background: linear-gradient(to bottom right, #ffffff, #ffcc00 );
+  background: linear-gradient(to bottom right, #ffffff, #ffcc00);
   color: #652b7c;
   transform: translate3d(-2px, -2px, 0);
 }
@@ -757,7 +758,7 @@ background: linear-gradient(to bottom right, #ffffff, #ffcc00 );
 
 .dropdown-content a:hover,
 .dropdown-menu li a:hover {
-  background: linear-gradient(to bottom right, #ffffff, #ffcc00 );
+  background: linear-gradient(to bottom right, #ffffff, #ffcc00);
   color: maroon;
   transform: translate3d(-2px, -2px, 0);
 }
@@ -838,7 +839,7 @@ background: linear-gradient(to bottom right, #ffffff, #ffcc00 );
 }
 
 /* Button */
-.button{
+.button {
   height: 20px;
 }
 
@@ -881,7 +882,8 @@ background: linear-gradient(to bottom right, #ffffff, #ffcc00 );
  */
 
 
-.about-menu li a:hover, .about-menu summary:hover{
+.about-menu li a:hover,
+.about-menu summary:hover {
   background: linear-gradient(to bottom right, #ffffff, #ffcc00);
   color: maroon;
   transform: translate3d(-2px, -2px, 0);
