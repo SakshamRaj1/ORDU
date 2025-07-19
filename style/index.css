@@ -417,7 +417,7 @@ body.dark-mode {
   padding: 8px 15px;
   cursor: pointer;
   font-size: 0.9rem;
-  background-color: #ffcc00;
+background-color: #ffe371;
 }
 
 .search-form button:hover {
