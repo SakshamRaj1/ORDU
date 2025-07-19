@@ -397,7 +397,7 @@ body.dark-mode {
   display: flex;
   width: 350px;
   height: 45px;
-  border: 2px solid #ccc;
+  border: 2px solid #800000;
   border-radius: 40px;
   overflow: hidden;
   background: #fff;
@@ -417,6 +417,7 @@ body.dark-mode {
   padding: 8px 15px;
   cursor: pointer;
   font-size: 0.9rem;
+  background-color: #ffcc00;
 }
 
 .search-form button:hover {
