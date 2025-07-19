@@ -834,6 +834,9 @@ body.dark-mode {
 }
 
 /* Button */
+.button{
+  height: 20px;
+}
 
 .styled-button {
   display: inline-block;
