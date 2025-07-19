@@ -275,8 +275,11 @@ body {
 }
 
 .nav-menu>.nav-item:hover>a {
-  background-color: #a00000;
-}
+  background-color: #d15eff00;
+  color: #ffcc00;
+  border-right: 5px double #ffcc00;
+  border-bottom: 2px double #ffcc00; 
+  border-radius: 20px;
 
 /* Responsive */
 @media (max-width: 768px) {
