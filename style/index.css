@@ -868,9 +868,17 @@ body.dark-mode {
   text-decoration: none;
 }
 
-.dropdown-content a:hover,
+/* .dropdown-content a:hover,
 .dropdown-menu li a:hover {
   background: linear-gradient(to bottom right, #ffffff, #ffcc00);
   color: #maroon;
+  transform: translate3d(-2px, -2px, 0);
+}
+ */
+
+
+.about-menu li a:hover, .about-menu summary:hover{
+  background: linear-gradient(to bottom right, #ffffff, #ffcc00);
+  color: maroon;
   transform: translate3d(-2px, -2px, 0);
 }
