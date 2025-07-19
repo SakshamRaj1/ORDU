@@ -784,7 +784,7 @@ body.dark-mode {
   left: 100%;
   margin-left: 0;
   min-width: 250px;
-  background: linear-gradient(to bottom right, #fffdfd, #fbeaea);
+  background: linear-gradient(to bottom right, #ffffff, #ffcc00);
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   z-index: 10001;
@@ -802,7 +802,7 @@ body.dark-mode {
   top: 0;
   left: 100%;
   min-width: 260px;
-  background: linear-gradient(to bottom right, #fffdfd, #fbeaea);
+  background: linear-gradient(to bottom right, #ffffff, #ffcc00);
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   padding: 5px 0;
@@ -868,3 +868,9 @@ body.dark-mode {
   text-decoration: none;
 }
 
+.dropdown-content a:hover,
+.dropdown-menu li a:hover {
+  background: linear-gradient(to bottom right, #ffffff, #ffcc00);
+  color: #maroon;
+  transform: translate3d(-2px, -2px, 0);
+}
