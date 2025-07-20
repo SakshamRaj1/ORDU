@@ -737,6 +737,17 @@
     </div>
   </footer>
 
+
+  <script>
+    let currentFontSize = 16;
+
+    function adjustFontSize(change) {
+      currentFontSize += change;
+      document.body.style.fontSize = currentFontSize + 'px';
+    }
+
+  </script>
+  
    <script>
     document.addEventListener("DOMContentLoaded", function () {
       const OFFSET = 200; // Height to offset from top
